@@ -1,0 +1,29 @@
+{
+  "name": "gulp-concat-dir",
+  "version": "1.0.0",
+  "description": "按目录合并代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Degfy/gulp-concat-dir.git"
+  },
+  "keywords": [
+    "gulp-concat",
+    "gulp-concat-dir",
+    "gulp-degfy",
+    "gulp-degfy-concat-dir"
+  ],
+  "author": "degfy@sina.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Degfy/gulp-concat-dir/issues"
+  },
+  "homepage": "https://github.com/Degfy/gulp-concat-dir#readme",
+  "dependencies": {
+    "through2": "^2.0.1",
+    "gulp-util": "^3.0.7"
+  }
+}
