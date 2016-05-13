@@ -14,6 +14,6 @@ gulp.task('concat',function(){
 	return gulp
 		.src('src/js/**/*.js')
 		.pipe(concat({ext:'.js'}))
-		.src('dest/js');
+		.pipe(gulp.dest('dest/js'));
 });
 ```
